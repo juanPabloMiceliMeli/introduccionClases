@@ -1,4 +1,5 @@
 package mainTarde.figuraGeometrica;
 
-public class FiguraGeometrica {
+public abstract class FiguraGeometrica {
+    public abstract double area();
 }

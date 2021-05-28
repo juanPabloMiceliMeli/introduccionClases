@@ -17,9 +17,9 @@ public class Password {
     }
 
     public void setValue(String value) throws Exception{
-        if(!value.matches(this.regex)){
-            throw new Exception("Password invalida");
-        }
         this.value = value;
+        if(!value.matches(this.regex)){
+            throw new Exception("Password invalida, trata de que matchee con: \""+this.regex+"\"");
+        }
     }
 }
