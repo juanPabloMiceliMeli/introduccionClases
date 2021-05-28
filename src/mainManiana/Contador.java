@@ -1,8 +1,8 @@
-package main;
+package mainManiana;
 
 public class Contador {
 
-    int actual;
+    private int actual;
 
     public Contador(){
         setActual(0);

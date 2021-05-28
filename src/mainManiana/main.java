@@ -1,6 +1,4 @@
-package main;
-
-import java.util.GregorianCalendar;
+package mainManiana;
 
 public class main {
     public static void main(String[] args){

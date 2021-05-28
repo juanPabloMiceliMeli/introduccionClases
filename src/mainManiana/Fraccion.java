@@ -1,9 +1,9 @@
-package main;
+package mainManiana;
 
 public class Fraccion {
 
-    int numerador;
-    int denominador;
+    private int numerador;
+    private int denominador;
 
     public Fraccion(int numerador) {
         setNumerador(numerador);

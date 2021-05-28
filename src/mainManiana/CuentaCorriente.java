@@ -1,12 +1,12 @@
-package main;
+package mainManiana;
 
 public class CuentaCorriente {
 
 
 
 
-    String fullName;
-    double saldo;
+    private String fullName;
+    private double saldo;
 
     public CuentaCorriente(){
         setFullName("N/N");

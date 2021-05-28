@@ -1,11 +1,11 @@
-package main;
+package mainManiana;
 
 public class Libro {
 
-    String titulo;
-    String autor;
-    String genero;
-    boolean disponible;
+    private String titulo;
+    private String autor;
+    private String genero;
+    private boolean disponible;
 
     public Libro() {
         setTitulo("N/N");
